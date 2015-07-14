@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Power - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\hyguo\AppData\Local\Temp\RSPABC1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/Power.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\±‡≥Ã≤‚ ‘\Power\PowerDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\hyguo\AppData\Local\Temp\RSPABC1.tmp" 
+Creating temporary file "C:\Users\hyguo\AppData\Local\Temp\RSPABC2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Power.pdb" /machine:I386 /out:"Release/Power.exe" 
+".\Release\Basic_Power.obj"
+".\Release\PanelDlg.obj"
+".\Release\Power.obj"
+".\Release\PowerControl.obj"
+".\Release\PowerDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\Power.res"
+]
+Creating command line "link.exe @C:\Users\hyguo\AppData\Local\Temp\RSPABC2.tmp"
+<h3>Output Window</h3>
+Compiling...
+PowerDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/Power.bsc"  ".\Release\StdAfx.sbr" ".\Release\Basic_Power.sbr" ".\Release\PanelDlg.sbr" ".\Release\Power.sbr" ".\Release\PowerControl.sbr" ".\Release\PowerDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Power.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
